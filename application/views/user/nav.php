@@ -58,17 +58,17 @@
          <div class="main-nav">
             <div class="container">
                <nav class="navbar navbar-expand-md navbar-light">
-                  <a class="navbar-brand" href="index.html">
+                  <a class="navbar-brand" href="<?= base_url() ?>usercontroller/">
                   <img src="https://makeuca.live/wp-content/uploads/2023/11/make-u-ca-logo-education-1024x405.png" class="main-logo" alt="logo" style="height:43px;width:112px;object-fit:cover" />
                   <img src="https://makeuca.live/wp-content/uploads/2023/11/make-u-ca-logo-education-1024x405.png" class="white-logo" alt="logo" style="height:43px;width:112px;object-fit:cover" />
                   </a>
                   <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                      <ul class="navbar-nav text-right">
                         <li class="nav-item">
-                           <a href="index.html" class="nav-link active">Home</a>
+                           <a href="<?= base_url() ?>usercontroller/" class="nav-link active">Home</a>
                         </li>
                         <li class="nav-item">
-                           <a href="about.html" class="nav-link">About</a>
+                           <a href="<?= base_url() ?>usercontroller/about" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
                            <a href="#" class="nav-link dropdown-toggle">Classes</a>

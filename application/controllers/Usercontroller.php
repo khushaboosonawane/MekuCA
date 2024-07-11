@@ -8,10 +8,17 @@ class Usercontroller extends CI_Controller{
     private function footer(){
         $this->load->view("user/footer");
     }
-    public function index(){
+    private function ov(string $filename,$data=null){
         $this->nav();
-        $this->load->view("user/index");
+        $this->load->view("user/".$filename,$data);
         $this->footer();
     }
+    public function index(){
+        $this->ov("index");
+    }
+    public function about(){
+        $this->ov("about");
+    }
+    
 }
 ?>
